@@ -69,11 +69,13 @@
     <Compile Include="CategoriesManager.cs" />
     <Compile Include="CategoriesMemoryCache.cs" />
     <Compile Include="CategoriesRedisCache.cs" />
+    <Compile Include="CustomersManager.cs" />
     <Compile Include="CustomersRedisCache.cs" />
     <Compile Include="ICache.cs" />
     <Compile Include="ICategoriesCache.cs" />
     <Compile Include="CacheTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuppliersMemoryCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

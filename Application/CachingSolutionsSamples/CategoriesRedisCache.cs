@@ -49,7 +49,7 @@ namespace CachingSolutionsSamples
 			{
 				var stream = new MemoryStream();
 				serializer.WriteObject(stream, categories);
-				db.StringSet(key, stream.ToArray());
+				db.StringSet(key, stream.ToArray(), TimeSpan.FromMinutes(5));
 			}
 		}
 	}
